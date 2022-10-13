@@ -1,13 +1,14 @@
+<!-- eslint-disable -->
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/news">News</router-link> |
-    <router-link to="/about">About us</router-link> |
-    <router-link to="/products">Products</router-link> |
-    <router-link to="/services">Services</router-link> |
-    <router-link to="/forspace-preview">Preview</router-link> |
-    <router-link to="/contact">Contact</router-link> |
-    <router-link to="/promo">Promo</router-link>
+    <router-link to="/">{{ $t("home") }}</router-link> |
+    <router-link to="/news">{{ $t("news") }}</router-link> |
+    <router-link to="/about">{{ $t("about") }} </router-link> |
+    <router-link to="/products">{{ $t("products") }}</router-link> |
+    <router-link to="/services">{{ $t("services") }}</router-link> |
+    <router-link to="/forspace-preview">{{ $t("preview") }}</router-link> |
+    <router-link to="/contact">{{ $t("contact") }}</router-link> |
+    <router-link to="/promo">{{ $t("promo") }}</router-link>
   </nav>
   <router-view />
 </template>
